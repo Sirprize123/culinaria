@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://c2pyqgurbost4"]
+
+[ext_resource type="Texture2D" uid="uid://d3iv5qe7s3dul" path="res://art/image(2).png" id="1_xdsnu"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(535, 332)
+
+[node name="Bone2D" type="Bone2D" parent="."]
+position = Vector2(-205, -89)
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Bone2D"]
+
+[node name="Image(2)" type="Sprite2D" parent="."]
+position = Vector2(-15, -49)
+texture = ExtResource("1_xdsnu")
