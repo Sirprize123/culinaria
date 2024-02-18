@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqf12lx71xh4x"]
+
+[ext_resource type="Texture2D" uid="uid://c2ai6nic0j372" path="res://art/iso_tileset.png" id="1_gakbq"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="IsoTileset" type="Sprite2D" parent="."]
+position = Vector2(238, 264)
+texture = ExtResource("1_gakbq")
